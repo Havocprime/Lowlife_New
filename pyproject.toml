@@ -1,0 +1,18 @@
+[project]
+name = "lowlife-society-bot"
+version = "0.2.0"
+description = "Discord-based MMORPG bot: Lowlife Society"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Vincent Cameron" }]
+dependencies = [
+  "discord.py>=2.4.0",
+  "python-dotenv>=1.0.1",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+
+[tool.isort]
+profile = "black"

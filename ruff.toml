@@ -1,0 +1,9 @@
+line-length = 100
+target-version = "py311"
+
+[lint]
+select = ["E","F","I","UP","B","SIM","C90"]
+ignore = ["E203","E501"]  # E203 for black compatibility; E501 handled by formatter
+
+[format]
+quote-style = "double"
